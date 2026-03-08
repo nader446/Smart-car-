@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">OBD-II Diagnostic</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- القائمة الجانبية (تظهر من اليمين) -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>الإعدادات</h2>
+            <button class="close-sidebar" onclick="closeSidebar()">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <div class="setting-item">
+                <label>اللغة:</label>
+                <select id="settingsLanguage" onchange="changeLanguageFromSettings()">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label>وحدة الحرارة:</label>
+                <select id="tempUnit">
+                    <option value="c">مئوي (°C)</option>
+                    <option value="f">فهرنهايت (°F)</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label>وحدة السرعة:</label>
+                <select id="speedUnit">
+                    <option value="kmh">كم/س</option>
+                    <option value="mph">ميل/س</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label>وضع المحاكاة:</label>
+                <input type="checkbox" id="simulationMode" checked>
+            </div>
+            <div class="setting-item">
+                <label>الوضع الليلي:</label>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="setting-item">
+                <label>حفظ السجلات:</label>
+                <label class="switch">
+                    <input type="checkbox" id="autoSaveLogs" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="logs-section">
+                <h3>السجلات المحفوظة</h3>
+                <div id="logsList" class="logs-list"></div>
+                <button onclick="clearAllLogs()" class="danger-btn">حذف الكل</button>
+            </div>
+            <div class="developer-info">
+                <h3>حول التطبيق</h3>
+                <p>تم التطوير بواسطة <strong>حسين ® 🇩🇿</strong></p>
+                <p>الإصدار: 1.0.0</p>
+            </div>
+            <button onclick="saveSettings()" class="save-btn">حفظ الإعدادات</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 id="app-title">OBD-II Vehicle Diagnostic</h1>
+            <div class="header-controls">
+                <div class="language-selector">
+                    <button onclick="setLanguage('en')">English</button>
+                    <button onclick="setLanguage('fr')">Français</button>
+                    <button onclick="setLanguage('ar')">العربية</button>
+                </div>
+                <button id="menuBtn" onclick="openSidebar()" class="menu-btn">☰</button>
+            </div>
+            <link rel="manifest" href="/manifest.json">
+            <meta name="theme-color" content="#667eea">
+        </header>
+
+        <div class="connection-status" id="connectionStatus">
+            <span class="status-indicator" id="statusIndicator"></span>
+            <span id="statusText">غير متصل</span>
+        </div>
+
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner"></div>
+            <div id="loadingMessage">جاري التحميل...</div>
+        </div>
+
+        <div class="connection-panel">
+            <button id="connectBtn" onclick="connect()" data-i18n="connect">Connect</button>
+            <button id="disconnectBtn" onclick="disconnect()" disabled data-i18n="disconnect">Disconnect</button>
+        </div>
+
+        <!-- شريط البحث عن رموز الأعطال (جديد) -->
+        <div class="dtc-search">
+            <input type="text" id="dtcSearchInput" placeholder="🔍 بحث عن رمز (مثال: P0101)" onkeyup="searchDTC()">
+            <div id="searchResults" class="search-results"></div>
+        </div>
+
+        <div class="dtc-panel">
+            <button onclick="readDTC()" data-i18n="read_dtc">Read DTCs</button>
+            <button onclick="clearDTC()" data-i18n="clear_dtc">Clear DTCs</button>
+            <button onclick="manualRefresh()" class="refresh-btn">🔄 تحديث</button>
+            <div id="dtcList"></div>
+        </div>
+
+        <div class="data-grid" id="dataGrid"></div>
+
+        <div class="charts-section">
+            <h3>الرسوم البيانية الحية</h3>
+            <div class="chart-container">
+                <canvas id="rpmChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="speedChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+    <div class="developer-signature">
+        <span>تم التطوير بواسطة <strong>حسين</strong> <span class="registered">®</span> <span class="flag">🇩🇿</span></span>
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('✅ Service Worker registered:', registration.scope);
+            })
+            .catch(error => {
+              console.log('❌ Service Worker registration failed:', error);
+            });
+        });
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "app_title": "OBD-II Diagnostic",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "read_dtc": "Read DTCs",
+    "clear_dtc": "Clear DTCs",
+    "rpm": "Engine RPM",
+    "load": "Calculated Load",
+    "coolant_temp": "Coolant Temperature",
+    "fuel_status": "Fuel System Status",
+    "speed": "Vehicle Speed",
+    "short_fuel_trim": "Short Term Fuel Trim",
+    "long_fuel_trim": "Long Term Fuel Trim",
+    "intake_pressure": "Intake Manifold Pressure",
+    "timing_advance": "Timing Advance",
+    "intake_temp": "Intake Air Temperature",
+    "maf": "Mass Air Flow Rate",
+    "throttle": "Throttle Position",
+    "o2_voltage": "O2 Sensor Voltage",
+    "fuel_pressure": "Fuel Pressure",
+    "no_dtc": "No DTCs found"
+}

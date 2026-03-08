@@ -1,0 +1,147 @@
+code,description,car_type,category,common_cause,fix_tip
+P0101,MAF Sensor Range/Performance,Hyundai Accent/Atos,Electrical,Dirty MAF or vacuum leak,Clean MAF with electronics cleaner,check hoses
+P0102,MAF Circuit Low Input,Hyundai Accent/Atos,Electrical,MAF wiring damaged or unplugged,Check connector and wiring harness
+P0103,MAF Circuit High Input,Hyundai Accent/Atos,Electrical,MAF sensor shorted or faulty,Test MAF voltage with multimeter
+P0117,ECT Sensor Circuit Low,Hyundai Accent/Atos,Electrical,ECT sensor shorted or wiring issue,Replace ECT sensor,check wiring
+P0118,ECT Sensor Circuit High,Hyundai Accent/Atos,Electrical,ECT sensor open circuit,Replace ECT sensor
+P0122,TPS Circuit Low Input,Hyundai Accent/Atos,Electrical,TPS wiring short to ground,Check TPS connector and wiring
+P0123,TPS Circuit High Input,Hyundai Accent/Atos,Electrical,TPS wiring open or short to battery,Replace TPS sensor
+P0131,O2 Sensor Low Voltage B1S1,Hyundai Accent/Atos,Electrical,Fuel lean or O2 sensor faulty,Check for vacuum leaks,test O2 sensor
+P0132,O2 Sensor High Voltage B1S1,Hyundai Accent/Atos,Electrical,Fuel rich or O2 sensor faulty,Check fuel pressure,O2 sensor
+P0133,O2 Sensor Slow Response B1S1,Hyundai Accent/Atos,Electrical,Aged O2 sensor or exhaust leak,Replace upstream O2 sensor
+P0171,System Too Lean Bank 1,Hyundai Accent/Atos,Mechanical,Vacuum leak or weak fuel pump,Smoke test for leaks,check fuel pressure
+P0172,System Too Rich Bank 1,Hyundai Accent/Atos,Mechanical,Clogged air filter or faulty MAF,Replace air filter,clean MAF
+P0201,Injector Circuit Cylinder 1,Hyundai Accent/Atos,Electrical,Injector wiring or connector issue,Check injector connector,resistance
+P0202,Injector Circuit Cylinder 2,Hyundai Accent/Atos,Electrical,Injector wiring or connector issue,Check injector connector,resistance
+P0203,Injector Circuit Cylinder 3,Hyundai Accent/Atos,Electrical,Injector wiring or connector issue,Check injector connector,resistance
+P0204,Injector Circuit Cylinder 4,Hyundai Accent/Atos,Electrical,Injector wiring or connector issue,Check injector connector,resistance
+P0300,Random/Multiple Cylinder Misfire,Hyundai Accent/Atos,Mechanical,Spark plugs,coils,vacuum leak,Replace plugs,check coils,smoke test
+P0301,Cylinder 1 Misfire,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 1,Swap coil to test,replace plug
+P0302,Cylinder 2 Misfire,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 2,Swap coil to test,replace plug
+P0303,Cylinder 3 Misfire,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 3,Swap coil to test,replace plug
+P0304,Cylinder 4 Misfire,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 4,Swap coil to test,replace plug
+P0325,Knock Sensor Circuit,Hyundai Accent/Atos,Electrical,Knock sensor faulty or wiring,Replace knock sensor,check wiring
+P0335,Crankshaft Position Sensor,Hyundai Accent/Atos,Electrical,CKP sensor faulty or damaged reluctor,Replace CKP sensor,inspect wheel
+P0340,Camshaft Position Sensor,Hyundai Accent/Atos,Electrical,CMP sensor faulty or timing issue,Replace CMP sensor,check timing
+P0420,Catalyst Efficiency Below Threshold,Hyundai Accent/Atos,Mechanical,Worn catalytic converter,Replace catalytic converter
+P0442,EVAP Small Leak Detected,Hyundai Accent/Atos,Mechanical,Loose fuel cap or small hose leak,Tighten cap,smoke test EVAP
+P0455,EVAP Large Leak Detected,Hyundai Accent/Atos,Mechanical,Missing fuel cap or large EVAP leak,Replace cap,inspect EVAP hoses
+P0500,Vehicle Speed Sensor,Hyundai Accent/Atos,Electrical,VSS sensor faulty or wiring issue,Replace VSS sensor,check wiring
+P0562,System Voltage Low,Hyundai Accent/Atos,Electrical,Weak battery or alternator problem,Test battery voltage,alternator output
+P0563,System Voltage High,Hyundai Accent/Atos,Electrical,Faulty voltage regulator,Replace alternator or regulator
+P0010,A Camshaft Actuator Circuit,Toyota All Models,Electrical,VVT solenoid wiring or connector,Check VVT solenoid connector
+P0011,A Camshaft Timing Over-Advanced,Toyota All Models,Mechanical,VVT solenoid stuck or oil flow issue,Clean VVT solenoid,check oil
+P0012,A Camshaft Timing Over-Retarded,Toyota All Models,Mechanical,VVT solenoid or oil pressure issue,Check oil pressure,VVT solenoid
+P0013,B Camshaft Actuator Circuit,Toyota All Models,Electrical,VVT solenoid B wiring issue,Check VVT solenoid B wiring
+P0014,B Camshaft Timing Over-Advanced,Toyota All Models,Mechanical,VVT solenoid B stuck,Clean or replace VVT solenoid B
+P0015,B Camshaft Timing Over-Retarded,Toyota All Models,Mechanical,VVT solenoid B or oil issue,Check oil flow to VVT system
+P0030,HO2S Heater Control B1S1,Toyota All Models,Electrical,O2 sensor heater circuit fault,Replace upstream O2 sensor
+P0031,HO2S Heater Control Low B1S1,Toyota All Models,Electrical,O2 heater wiring short to ground,Check O2 sensor heater wiring
+P0032,HO2S Heater Control High B1S1,Toyota All Models,Electrical,O2 heater wiring short to battery,Check O2 sensor heater wiring
+P0036,HO2S Heater Control B1S2,Toyota All Models,Electrical,Downstream O2 heater circuit fault,Replace downstream O2 sensor
+P0037,HO2S Heater Control Low B1S2,Toyota All Models,Electrical,Downstream O2 heater wiring issue,Check downstream O2 wiring
+P0038,HO2S Heater Control High B1S2,Toyota All Models,Electrical,Downstream O2 heater wiring issue,Check downstream O2 wiring
+P0045,Turbo Boost Control Solenoid,Toyota Hilux/Land Cruiser,Electrical,Boost solenoid wiring or connector,Check turbo boost solenoid
+P0046,Turbo Boost Control Performance,Toyota Hilux/Land Cruiser,Mechanical,Boost solenoid stuck or vacuum leak,Test boost solenoid operation
+P0047,Turbo Boost Control Low,Toyota Hilux/Land Cruiser,Electrical,Boost solenoid circuit low,Check boost solenoid wiring
+P0048,Turbo Boost Control High,Toyota Hilux/Land Cruiser,Electrical,Boost solenoid circuit high,Check boost solenoid wiring
+P0087,Fuel Rail Pressure Too Low,Toyota Diesel Models,Mechanical,Weak fuel pump or clogged filter,Replace fuel filter,test pump pressure
+P0088,Fuel Rail Pressure Too High,Toyota Diesel Models,Mechanical,Faulty pressure regulator,Replace fuel pressure regulator
+P0101,MAF Sensor Range/Performance,Toyota All Models,Electrical,Dirty MAF or vacuum leak,Clean MAF sensor,check intake for leaksP0102,MAF Circuit Low Input,Toyota All Models,Electrical,MAF wiring damaged,Check MAF connector and harness
+P0103,MAF Circuit High Input,Toyota All Models,Electrical,MAF sensor faulty,Replace MAF sensor
+P0117,ECT Sensor Circuit Low,Toyota All Models,Electrical,ECT sensor shorted,Replace ECT sensor
+P0118,ECT Sensor Circuit High,Toyota All Models,Electrical,ECT sensor open circuit,Replace ECT sensor
+P0122,TPS Circuit Low Input,Toyota All Models,Electrical,TPS wiring short,Check TPS wiring and connector
+P0123,TPS Circuit High Input,Toyota All Models,Electrical,TPS wiring open,Replace TPS sensor
+P0131,O2 Sensor Low Voltage B1S1,Toyota All Models,Electrical,Fuel lean or O2 sensor faulty,Check for vacuum leaks,test O2
+P0132,O2 Sensor High Voltage B1S1,Toyota All Models,Electrical,Fuel rich or O2 sensor faulty,Check fuel pressure,O2 sensor
+P0133,O2 Sensor Slow Response B1S1,Toyota All Models,Electrical,Aged O2 sensor,Replace upstream O2 sensor
+P0171,System Too Lean Bank 1,Toyota All Models,Mechanical,Vacuum leak or weak fuel pump,Smoke test,check fuel pressure
+P0172,System Too Rich Bank 1,Toyota All Models,Mechanical,Clogged air filter or faulty MAF,Replace filter,clean MAF
+P0201,Injector Circuit Cylinder 1,Toyota All Models,Electrical,Injector wiring issue,Check injector 1 connector
+P0202,Injector Circuit Cylinder 2,Toyota All Models,Electrical,Injector wiring issue,Check injector 2 connector
+P0203,Injector Circuit Cylinder 3,Toyota All Models,Electrical,Injector wiring issue,Check injector 3 connector
+P0204,Injector Circuit Cylinder 4,Toyota All Models,Electrical,Injector wiring issue,Check injector 4 connector
+P0205,Injector Circuit Cylinder 5,Toyota Land Cruiser V8,Electrical,Injector 5 wiring issue,Check injector 5 connector
+P0206,Injector Circuit Cylinder 6,Toyota Land Cruiser V8,Electrical,Injector 6 wiring issue,Check injector 6 connector
+P0300,Random Misfire Detected,Toyota All Models,Mechanical,Plugs,coils,vacuum leak,Replace plugs,check coils
+P0301,Cylinder 1 Misfire,Toyota All Models,Mechanical,Faulty plug or coil cylinder 1,Swap coil,replace plug
+P0302,Cylinder 2 Misfire,Toyota All Models,Mechanical,Faulty plug or coil cylinder 2,Swap coil,replace plug
+P0303,Cylinder 3 Misfire,Toyota All Models,Mechanical,Faulty plug or coil cylinder 3,Swap coil,replace plug
+P0304,Cylinder 4 Misfire,Toyota All Models,Mechanical,Faulty plug or coil cylinder 4,Swap coil,replace plug
+P0325,Knock Sensor Circuit,Toyota All Models,Electrical,Knock sensor faulty,Replace knock sensor
+P0335,Crankshaft Position Sensor,Toyota All Models,Electrical,CKP sensor faulty,Replace CKP sensor
+P0340,Camshaft Position Sensor,Toyota All Models,Electrical,CMP sensor faulty,Replace CMP sensor
+P0420,Catalyst Efficiency Below Threshold,Toyota All Models,Mechanical,Worn catalytic converter,Replace catalytic converter
+P0442,EVAP Small Leak,Toyota All Models,Mechanical,Loose fuel cap,Tighten or replace fuel cap
+P0455,EVAP Large Leak,Toyota All Models,Mechanical,Missing cap or EVAP hose leak,Replace cap,smoke test EVAP
+P0500,Vehicle Speed Sensor,Toyota All Models,Electrical,VSS sensor faulty,Replace VSS sensor
+P0562,System Voltage Low,Toyota All Models,Electrical,Weak battery or alternator,Test battery and alternator
+P0563,System Voltage High,Toyota All Models,Electrical,Faulty voltage regulator,Replace alternator regulator
+P0087,Fuel Rail Pressure Too Low,Sokon Utility Diesel,Mechanical,Weak lift pump or clogged filter,Replace fuel filter,check lift pump
+P0088,Fuel Rail Pressure Too High,Sokon Utility Diesel,Mechanical,Faulty pressure regulator,Replace fuel pressure regulator
+P0101,MAF Sensor Range/Performance,Sokon Utility Diesel,Electrical,Dirty MAF or intake leak,Clean MAF,check intake hoses
+P0102,MAF Circuit Low Input,Sokon Utility Diesel,Electrical,MAF wiring issue,Check MAF connector
+P0103,MAF Circuit High Input,Sokon Utility Diesel,Electrical,MAF sensor faulty,Replace MAF sensor
+P0117,ECT Sensor Circuit Low,Sokon Utility Diesel,Electrical,ECT sensor shorted,Replace ECT sensor
+P0118,ECT Sensor Circuit High,Sokon Utility Diesel,Electrical,ECT sensor open,Replace ECT sensor
+P0192,Fuel Rail Pressure Sensor Low,Sokon Utility Diesel,Electrical,FRPS wiring short,Check FRPS wiring
+P0193,Fuel Rail Pressure Sensor High,Sokon Utility Diesel,Electrical,FRPS wiring open,Replace FRPS sensor
+P0201,Injector Circuit Cylinder 1,Sokon Utility Diesel,Electrical,Injector 1 wiring issue,Check injector 1 connector
+P0202,Injector Circuit Cylinder 2,Sokon Utility Diesel,Electrical,Injector 2 wiring issue,Check injector 2 connector
+P0203,Injector Circuit Cylinder 3,Sokon Utility Diesel,Electrical,Injector 3 wiring issue,Check injector 3 connector
+P0204,Injector Circuit Cylinder 4,Sokon Utility Diesel,Electrical,Injector 4 wiring issue,Check injector 4 connector
+P0205,Injector Circuit Cylinder 5,Sokon Utility Diesel 6-cyl,Electrical,Injector 5 wiring issue,Check injector 5 connector
+P0206,Injector Circuit Cylinder 6,Sokon Utility Diesel 6-cyl,Electrical,Injector 6 wiring issue,Check injector 6 connector
+P0234,Engine Overboost Condition,Sokon Utility Diesel,Mechanical,Turbo wastegate stuck closed,Check turbo wastegate operation
+P0237,Turbo Boost Sensor A Low,Sokon Utility Diesel,Electrical,Boost sensor wiring short,Check boost sensor wiring
+P0238,Turbo Boost Sensor A High,Sokon Utility Diesel,Electrical,Boost sensor wiring open,Replace boost sensor
+P0299,Turbo Underboost,Sokon Utility Diesel,Mechanical,Turbo leak or wastegate stuck open,Check turbo hoses,wastegateP0380,Glow Plug Circuit A,Sokon Utility Diesel,Electrical,Glow plug relay or wiring fault,Test glow plug relay
+P0381,Glow Plug Indicator Circuit,Sokon Utility Diesel,Electrical,Glow plug indicator bulb or wiring,Replace indicator bulb
+P0382,Glow Plug Circuit B,Sokon Utility Diesel,Electrical,Glow plug circuit fault,Test glow plugs resistance
+P0401,EGR Flow Insufficient,Sokon Utility Diesel,Mechanical,Clogged EGR valve or passages,Clean EGR valve and passages
+P0402,EGR Flow Excessive,Sokon Utility Diesel,Mechanical,EGR valve stuck open,Replace or clean EGR valve
+P0403,EGR Control Circuit,Sokon Utility Diesel,Electrical,EGR solenoid wiring issue,Check EGR solenoid wiring
+P0470,Exhaust Pressure Sensor,DPF Sokon Diesel,Electrical,DPF pressure sensor faulty,Replace DPF pressure sensor
+P0471,Exhaust Pressure Sensor Range,DPF Sokon Diesel,Electrical,DPF sensor wiring issue,Check DPF sensor wiring
+P0480,Cooling Fan 1 Control,Sokon Utility,Electrical,Fan relay or wiring fault,Test fan relay and wiring
+P0481,Cooling Fan 2 Control,Sokon Utility,Electrical,Fan 2 relay or wiring fault,Test fan 2 relay and wiring
+P0500,Vehicle Speed Sensor,Sokon Utility,Electrical,VSS sensor faulty,Replace VSS sensor
+P0522,Engine Oil Pressure Low,Sokon Utility,Electrical,Oil pressure sensor or wiring,Check oil level,sensor wiring
+P0523,Engine Oil Pressure High,Sokon Utility,Electrical,Oil pressure sensor faulty,Replace oil pressure sensor
+P0562,System Voltage Low,Sokon Utility,Electrical,Weak battery or alternator,Test battery and alternator
+P0563,System Voltage High,Sokon Utility,Electrical,Faulty voltage regulator,Replace alternator regulator
+P0087,Fuel Rail Pressure Too Low,DFAC Commercial Diesel,Mechanical,Weak lift pump or clogged filter,Replace fuel filter,check pump
+P0088,Fuel Rail Pressure Too High,DFAC Commercial Diesel,Mechanical,Faulty pressure regulator,Replace fuel pressure regulator
+P0101,MAF Sensor Range/Performance,DFAC Commercial Diesel,Electrical,Dirty MAF or intake leak,Clean MAF,check intake
+P0102,MAF Circuit Low Input,DFAC Commercial Diesel,Electrical,MAF wiring issue,Check MAF connector
+P0103,MAF Circuit High Input,DFAC Commercial Diesel,Electrical,MAF sensor faulty,Replace MAF sensor
+P0117,ECT Sensor Circuit Low,DFAC Commercial Diesel,Electrical,ECT sensor shorted,Replace ECT sensor
+P0118,ECT Sensor Circuit High,DFAC Commercial Diesel,Electrical,ECT sensor open,Replace ECT sensor
+P0192,Fuel Rail Pressure Sensor Low,DFAC Commercial Diesel,Electrical,FRPS wiring short,Check FRPS wiring
+P0193,Fuel Rail Pressure Sensor High,DFAC Commercial Diesel,Electrical,FRPS wiring open,Replace FRPS sensor
+P0201,Injector Circuit Cylinder 1,DFAC Commercial Diesel,Electrical,Injector 1 wiring issue,Check injector 1 connector
+P0202,Injector Circuit Cylinder 2,DFAC Commercial Diesel,Electrical,Injector 2 wiring issue,Check injector 2 connector
+P0203,Injector Circuit Cylinder 3,DFAC Commercial Diesel,Electrical,Injector 3 wiring issue,Check injector 3 connector
+P0204,Injector Circuit Cylinder 4,DFAC Commercial Diesel,Electrical,Injector 4 wiring issue,Check injector 4 connector
+P0205,Injector Circuit Cylinder 5,DFAC Commercial Diesel 6-cyl,Electrical,Injector 5 wiring issue,Check injector 5 connector
+P0206,Injector Circuit Cylinder 6,DFAC Commercial Diesel 6-cyl,Electrical,Injector 6 wiring issue,Check injector 6 connector
+P0234,Engine Overboost,DFAC Commercial Diesel,Mechanical,Turbo wastegate stuck,Check turbo wastegate
+P0237,Turbo Boost Sensor Low,DFAC Commercial Diesel,Electrical,Boost sensor wiring short,Check boost sensor wiring
+P0238,Turbo Boost Sensor High,DFAC Commercial Diesel,Electrical,Boost sensor wiring open,Replace boost sensor
+P0299,Turbo Underboost,DFAC Commercial Diesel,Mechanical,Turbo leak or wastegate open,Check turbo hoses,wastegate
+P0380,Glow Plug Circuit A,DFAC Commercial Diesel,Electrical,Glow plug relay fault,Test glow plug relay
+P0381,Glow Plug Indicator,DFAC Commercial Diesel,Electrical,Indicator bulb or wiring,Replace indicator bulb
+P0382,Glow Plug Circuit B,DFAC Commercial Diesel,Electrical,Glow plug circuit fault,Test glow plugs resistance
+P0401,EGR Flow Insufficient,DFAC Commercial Diesel,Mechanical,Clogged EGR valve,Clean EGR valve and passages
+P0402,EGR Flow Excessive,DFAC Commercial Diesel,Mechanical,EGR valve stuck open,Replace EGR valve
+P0403,EGR Control Circuit,DFAC Commercial Diesel,Electrical,EGR solenoid wiring,Check EGR solenoid wiring
+P0470,Exhaust Pressure Sensor,DPF DFAC Diesel,Electrical,DPF pressure sensor faulty,Replace DPF pressure sensor
+P0471,Exhaust Pressure Sensor Range,DPF DFAC Diesel,Electrical,DPF sensor wiring,Check DPF sensor wiring
+P0480,Cooling Fan 1 Control,DFAC Commercial,Electrical,Fan relay or wiring,Test fan relay and wiring
+P0481,Cooling Fan 2 Control,DFAC Commercial,Electrical,Fan 2 relay or wiring,Test fan 2 relay
+P0500,Vehicle Speed Sensor,DFAC Commercial,Electrical,VSS sensor faulty,Replace VSS sensor
+P0522,Engine Oil Pressure Low,DFAC Commercial,Electrical,Oil pressure sensor,Check oil level,sensor
+P0523,Engine Oil Pressure High,DFAC Commercial,Electrical,Oil pressure sensor faulty,Replace oil pressure sensor
+P0562,System Voltage Low,DFAC Commercial,Electrical,Weak battery or alternator,Test battery and alternator
+P0563,System Voltage High,DFAC Commercial,Electrical,Faulty voltage regulator,Replace alternator regulator

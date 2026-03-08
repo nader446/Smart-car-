@@ -1,0 +1,22 @@
+{
+    "app_title": "Diagnostic OBD-II",
+    "connect": "Connecter",
+    "disconnect": "Déconnecter",
+    "read_dtc": "Lire les DTC",
+    "clear_dtc": "Effacer les DTC",
+    "rpm": "Régime moteur",
+    "load": "Charge calculée",
+    "coolant_temp": "Température liquide",
+    "fuel_status": "État carburant",
+    "speed": "Vitesse",
+    "short_fuel_trim": "Correction court terme",
+    "long_fuel_trim": "Correction long terme",
+    "intake_pressure": "Pression admission",
+    "timing_advance": "Avance allumage",
+    "intake_temp": "Température air",
+    "maf": "Débit d'air",
+    "throttle": "Position papillon",
+    "o2_voltage": "Tension O2",
+    "fuel_pressure": "Pression carburant",
+    "no_dtc": "Aucun DTC"
+}

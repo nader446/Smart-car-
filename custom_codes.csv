@@ -1,0 +1,346 @@
+code,description,car_type,category,common_cause,fix_tip
+P0010,A Camshaft Position Actuator Circuit/Open Bank 1,Toyota All Models,Electrical,VVT solenoid wiring or connector fault,Check VVT solenoid connector and wiring harness
+P0011,A Camshaft Position Timing Over-Advanced Bank 1,Toyota All Models,Mechanical,VVT solenoid stuck or low oil pressure,Clean VVT solenoid screen,check oil level and pressure
+P0012,A Camshaft Position Timing Over-Retarded Bank 1,Toyota All Models,Mechanical,VVT solenoid clogged or timing chain stretched,Clean VVT system,inspect timing components
+P0013,B Camshaft Position Actuator Circuit/Open Bank 1,Toyota All Models,Electrical,VVT solenoid B wiring fault,Check VVT solenoid B connector and wiring
+P0014,B Camshaft Position Timing Over-Advanced Bank 1,Toyota All Models,Mechanical,VVT solenoid B stuck or oil flow issue,Clean or replace VVT solenoid B
+P0015,B Camshaft Position Timing Over-Retarded Bank 1,Toyota All Models,Mechanical,VVT oil control valve fault,Check oil passages to VVT system
+P0016,Crankshaft/Camshaft Position Correlation Bank 1,Toyota All Models,Mechanical,Timing chain/belt jumped or sensor misaligned,Verify timing marks,check sensor alignment
+P0017,Crankshaft/Camshaft Position Correlation Bank 1 Sensor B,Toyota All Models,Mechanical,Exhaust VVT timing off or sensor fault,Check exhaust VVT system and CMP sensor
+P0018,Crankshaft/Camshaft Position Correlation Bank 2,Toyota V6/V8 Models,Mechanical,Timing issue on bank 2,Inspect bank 2 timing components
+P0019,Crankshaft/Camshaft Position Correlation Bank 2 Sensor B,Toyota V6/V8 Models,Mechanical,Exhaust VVT bank 2 timing fault,Check bank 2 exhaust VVT system
+P0020,A Camshaft Position Actuator Circuit Bank 2,Toyota V6/V8 Models,Electrical,VVT solenoid bank 2 wiring fault,Check bank 2 VVT solenoid wiring
+P0021,A Camshaft Timing Over-Advanced Bank 2,Toyota V6/V8 Models,Mechanical,VVT bank 2 solenoid stuck,Clean bank 2 VVT solenoid
+P0022,A Camshaft Timing Over-Retarded Bank 2,Toyota V6/V8 Models,Mechanical,VVT bank 2 oil control issue,Check oil pressure to bank 2 VVT
+P0030,HO2S Heater Control Circuit Bank 1 Sensor 1,Toyota All Models,Electrical,Upstream O2 sensor heater circuit fault,Replace upstream oxygen sensor
+P0031,HO2S Heater Control Circuit Low Bank 1 Sensor 1,Toyota All Models,Electrical,O2 heater wiring short to ground,Check O2 sensor heater wiring for shorts
+P0032,HO2S Heater Control Circuit High Bank 1 Sensor 1,Toyota All Models,Electrical,O2 heater wiring short to battery,Check O2 sensor heater wiring for power short
+P0033,Turbocharger Bypass Valve Control Circuit,Toyota Turbo Models,Electrical,Turbo bypass solenoid wiring fault,Check turbo bypass valve wiring
+P0034,Turbocharger Bypass Valve Control Circuit Low,Toyota Turbo Models,Electrical,Bypass solenoid circuit short to ground,Check bypass valve wiring harness
+P0035,Turbocharger Bypass Valve Control Circuit High,Toyota Turbo Models,Electrical,Bypass solenoid circuit short to battery,Check bypass valve wiring for power short
+P0036,HO2S Heater Control Circuit Bank 1 Sensor 2,Toyota All Models,Electrical,Downstream O2 sensor heater fault,Replace downstream oxygen sensor
+P0037,HO2S Heater Control Circuit Low Bank 1 Sensor 2,Toyota All Models,Electrical,Downstream O2 heater wiring short,Check downstream O2 wiring
+P0038,HO2S Heater Control Circuit High Bank 1 Sensor 2,Toyota All Models,Electrical,Downstream O2 heater wiring open/short,Check downstream O2 wiring harness
+P0045,Turbo/Super Charger Boost Control Solenoid Circuit,Toyota Hilux/Land Cruiser Turbo,Electrical,Boost control solenoid wiring fault,Check boost solenoid connector and wiring
+P0046,Turbo Boost Control Solenoid Range/Performance,Toyota Hilux/Land Cruiser Turbo,Mechanical,Boost solenoid stuck or vacuum leak,Test boost solenoid operation,check vacuum lines
+P0047,Turbo Boost Control Solenoid Circuit Low,Toyota Hilux/Land Cruiser Turbo,Electrical,Boost solenoid wiring short to ground,Check boost solenoid wiring
+P0048,Turbo Boost Control Solenoid Circuit High,Toyota Hilux/Land Cruiser Turbo,Electrical,Boost solenoid wiring short to battery,Check boost solenoid wiring for power short
+P0050,HO2S Heater Control Circuit Bank 2 Sensor 1,Toyota V6/V8 Models,Electrical,Bank 2 upstream O2 heater fault,Replace bank 2 upstream O2 sensor
+P0051,HO2S Heater Control Circuit Low Bank 2 Sensor 1,Toyota V6/V8 Models,Electrical,Bank 2 O2 heater wiring short,Check bank 2 O2 sensor wiring
+P0052,HO2S Heater Control Circuit High Bank 2 Sensor 1,Toyota V6/V8 Models,Electrical,Bank 2 O2 heater wiring open/short,Check bank 2 O2 sensor wiring
+P0053,HO2S Heater Resistance Bank 1 Sensor 1,Toyota All Models,Electrical,O2 sensor heater resistance out of range,Replace upstream O2 sensor
+P0054,HO2S Heater Resistance Bank 1 Sensor 2,Toyota All Models,Electrical,Downstream O2 heater resistance fault,Replace downstream O2 sensor
+P0056,HO2S Heater Control Circuit Bank 2 Sensor 2,Toyota V6/V8 Models,Electrical,Bank 2 downstream O2 heater fault,Replace bank 2 downstream O2 sensor
+P0057,HO2S Heater Control Circuit Low Bank 2 Sensor 2,Toyota V6/V8 Models,Electrical,Bank 2 downstream O2 wiring short,Check bank 2 downstream O2 wiring
+P0058,HO2S Heater Control Circuit High Bank 2 Sensor 2,Toyota V6/V8 Models,Electrical,Bank 2 downstream O2 wiring open,Check bank 2 downstream O2 wiring
+P0068,MAP/MAF Throttle Position Correlation,Toyota All Models,Mechanical,Vacuum leak or throttle body dirty,Check for vacuum leaks,clean throttle body
+P0069,Manifold Absolute Pressure Barometric Pressure Correlation,Toyota All Models,Electrical,MAP sensor fault or wiring issue,Test MAP sensor voltage,check wiring
+P0070,Ambient Air Temperature Sensor Circuit,Toyota All Models,Electrical,AAT sensor wiring fault,Check AAT sensor connector and wiring
+P0071,Ambient Air Temperature Sensor Range/Performance,Toyota All Models,Electrical,AAT sensor out of range,Replace ambient air temperature sensor
+P0072,Ambient Air Temperature Sensor Circuit Low,Toyota All Models,Electrical,AAT sensor wiring short to ground,Check AAT sensor wiring for shorts
+P0073,Ambient Air Temperature Sensor Circuit High,Toyota All Models,Electrical,AAT sensor wiring open or short to battery,Check AAT sensor wiring harness
+P0074,Ambient Air Temperature Sensor Intermittent,Toyota All Models,Electrical,AAT sensor loose connection,Secure AAT sensor connector
+P0075,Intake Valve Control Solenoid Circuit Bank 1,Toyota VVT-i Models,Electrical,Intake VVT solenoid wiring fault,Check intake VVT solenoid wiring
+P0076,Intake Valve Control Solenoid Circuit Low Bank 1,Toyota VVT-i Models,Electrical,Intake VVT solenoid short to ground,Check intake VVT wiring for shorts
+P0077,Intake Valve Control Solenoid Circuit High Bank 1,Toyota VVT-i Models,Electrical,Intake VVT solenoid short to battery,Check intake VVT wiring for power short
+P0078,Exhaust Valve Control Solenoid Circuit Bank 1,Toyota VVT-iE Models,Electrical,Exhaust VVT solenoid wiring fault,Check exhaust VVT solenoid wiring
+P0079,Exhaust Valve Control Solenoid Circuit Low Bank 1,Toyota VVT-iE Models,Electrical,Exhaust VVT solenoid short to ground,Check exhaust VVT wiring
+P0080,Exhaust Valve Control Solenoid Circuit High Bank 1,Toyota VVT-iE Models,Electrical,Exhaust VVT solenoid short to battery,Check exhaust VVT wiring harness
+P0087,Fuel Rail/System Pressure Too Low,Toyota Diesel/Hybrid Models,Mechanical,Weak fuel pump or clogged filter,Replace fuel filter,test fuel pump pressure
+P0088,Fuel Rail/System Pressure Too High,Toyota Diesel/Hybrid Models,Mechanical,Faulty fuel pressure regulator,Replace fuel pressure regulatorP0089,Fuel Pressure Regulator Performance,Toyota All Models,Mechanical,Regulator stuck or spring weak,Replace fuel pressure regulator
+P0090,Fuel Pressure Regulator Control Circuit,Toyota All Models,Electrical,Regulator control wiring fault,Check regulator control wiring
+P0091,Fuel Pressure Regulator Control Circuit Low,Toyota All Models,Electrical,Regulator control short to ground,Check regulator control wiring for shorts
+P0092,Fuel Pressure Regulator Control Circuit High,Toyota All Models,Electrical,Regulator control short to battery,Check regulator control wiring for power short
+P0093,Fuel System Leak Detected Large Leak,Toyota All Models,Mechanical,Fuel line leak or injector seal leak,Inspect fuel lines and injector seals
+P0094,Fuel System Leak Detected Small Leak,Toyota All Models,Mechanical,Small fuel vapor leak,Smoke test fuel system
+P0095,Intake Air Temperature Sensor 2 Circuit,Toyota All Models,Electrical,IAT2 sensor wiring fault,Check IAT2 sensor connector
+P0096,Intake Air Temperature Sensor 2 Range/Performance,Toyota All Models,Electrical,IAT2 sensor out of range,Replace IAT2 sensor
+P0097,Intake Air Temperature Sensor 2 Circuit Low,Toyota All Models,Electrical,IAT2 wiring short to ground,Check IAT2 wiring for shorts
+P0098,Intake Air Temperature Sensor 2 Circuit High,Toyota All Models,Electrical,IAT2 wiring open or short to battery,Check IAT2 wiring harness
+P0099,Intake Air Temperature Sensor 2 Intermittent,Toyota All Models,Electrical,IAT2 loose connection,Secure IAT2 sensor connector
+P0100,Mass Air Flow Circuit Malfunction,Hyundai Accent/Atos,Electrical,MAF sensor dirty or wiring fault,Clean MAF with electronics cleaner,check wiring
+P0101,Mass Air Flow Circuit Range/Performance,Hyundai Accent/Atos,Electrical,Dirty MAF or vacuum leak,Clean MAF sensor,smoke test for vacuum leaks
+P0102,Mass Air Flow Circuit Low Input,Hyundai Accent/Atos,Electrical,MAF wiring damaged or disconnected,Check MAF connector and wiring harness
+P0103,Mass Air Flow Circuit High Input,Hyundai Accent/Atos,Electrical,MAF sensor shorted or faulty,Test MAF voltage,replace if faulty
+P0105,Manifold Absolute Pressure Circuit Malfunction,Hyundai Accent/Atos,Electrical,MAP sensor fault or wiring issue,Test MAP sensor voltage,check wiring
+P0106,Manifold Absolute Pressure Range/Performance,Hyundai Accent/Atos,Electrical,MAP sensor out of range or vacuum leak,Check for vacuum leaks,test MAP sensor
+P0107,Manifold Absolute Pressure Circuit Low,Hyundai Accent/Atos,Electrical,MAP wiring short to ground,Check MAP sensor wiring for shorts
+P0108,Manifold Absolute Pressure Circuit High,Hyundai Accent/Atos,Electrical,MAP wiring open or short to battery,Check MAP sensor wiring harness
+P0110,Intake Air Temperature Sensor Circuit,Hyundai Accent/Atos,Electrical,IAT sensor wiring fault,Check IAT sensor connector
+P0111,Intake Air Temperature Sensor Range/Performance,Hyundai Accent/Atos,Electrical,IAT sensor out of range,Replace IAT sensor
+P0112,Intake Air Temperature Sensor Circuit Low,Hyundai Accent/Atos,Electrical,IAT wiring short to ground,Check IAT wiring for shorts
+P0113,Intake Air Temperature Sensor Circuit High,Hyundai Accent/Atos,Electrical,IAT wiring open or short to battery,Check IAT wiring harness
+P0115,Engine Coolant Temperature Circuit Malfunction,Hyundai Accent/Atos,Electrical,ECT sensor fault or wiring issue,Test ECT sensor resistance,check wiring
+P0116,Engine Coolant Temperature Range/Performance,Hyundai Accent/Atos,Mechanical,Thermostat stuck or ECT sensor drift,Replace thermostat,test ECT sensor
+P0117,Engine Coolant Temperature Circuit Low,Hyundai Accent/Atos,Electrical,ECT sensor shorted or wiring short,Replace ECT sensor,check wiring
+P0118,Engine Coolant Temperature Circuit High,Hyundai Accent/Atos,Electrical,ECT sensor open circuit or wiring open,Replace ECT sensor,check wiring
+P0120,Throttle Position Sensor Circuit Malfunction,Hyundai Accent/Atos,Electrical,TPS sensor fault or wiring issue,Test TPS voltage sweep,check wiring
+P0121,Throttle Position Sensor Range/Performance,Hyundai Accent/Atos,Electrical,TPS out of range or dirty throttle body,Clean throttle body,recalibrate TPS
+P0122,Throttle Position Sensor Circuit Low,Hyundai Accent/Atos,Electrical,TPS wiring short to ground,Check TPS wiring for shorts
+P0123,Throttle Position Sensor Circuit High,Hyundai Accent/Atos,Electrical,TPS wiring open or short to battery,Check TPS wiring harness,replace TPS
+P0125,Insufficient Coolant Temperature For Closed Loop,Hyundai Accent/Atos,Mechanical,Thermostat stuck open or ECT sensor fault,Replace thermostat,test ECT sensor
+P0130,O2 Sensor Circuit Malfunction Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,Upstream O2 sensor faulty,Replace upstream oxygen sensor
+P0131,O2 Sensor Circuit Low Voltage Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,Fuel lean or O2 sensor faulty,Check for vacuum leaks,test O2 sensor
+P0132,O2 Sensor Circuit High Voltage Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,Fuel rich or O2 sensor faulty,Check fuel pressure,test O2 sensor
+P0133,O2 Sensor Circuit Slow Response Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,Aged O2 sensor or exhaust leak,Replace upstream O2 sensor,check exhaust
+P0134,O2 Sensor Circuit No Activity Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,O2 sensor heater or wiring fault,Check O2 sensor heater circuit
+P0135,O2 Sensor Heater Circuit Malfunction Bank 1 Sensor 1,Hyundai Accent/Atos,Electrical,O2 sensor heater circuit fault,Replace upstream O2 sensor
+P0136,O2 Sensor Circuit Malfunction Bank 1 Sensor 2,Hyundai Accent/Atos,Electrical,Downstream O2 sensor faulty,Replace downstream oxygen sensor
+P0137,O2 Sensor Circuit Low Voltage Bank 1 Sensor 2,Hyundai Accent/Atos,Electrical,Catalyst efficiency issue or O2 fault,Check catalytic converter,test O2
+P0138,O2 Sensor Circuit High Voltage Bank 1 Sensor 2,Hyundai Accent/Atos,Electrical,Fuel rich condition or O2 fault,Check fuel trim,test downstream O2
+P0140,O2 Sensor Circuit No Activity Bank 1 Sensor 2,Hyundai Accent/Atos,Electrical,Downstream O2 heater or wiring fault,Check downstream O2 heater circuit
+P0141,O2 Sensor Heater Circuit Malfunction Bank 1 Sensor 2,Hyundai Accent/Atos,Electrical,Downstream O2 heater fault,Replace downstream O2 sensor
+P0150,O2 Sensor Circuit Malfunction Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 upstream O2 sensor faulty,Replace bank 2 upstream O2 sensor
+P0151,O2 Sensor Circuit Low Voltage Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 fuel lean or O2 fault,Check bank 2 for vacuum leaks
+P0152,O2 Sensor Circuit High Voltage Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 fuel rich or O2 fault,Check bank 2 fuel delivery
+P0153,O2 Sensor Circuit Slow Response Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 aged O2 sensor,Replace bank 2 upstream O2 sensor
+P0154,O2 Sensor Circuit No Activity Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 O2 heater or wiring fault,Check bank 2 O2 heater circuit
+P0155,O2 Sensor Heater Circuit Malfunction Bank 2 Sensor 1,Hyundai V6 Models,Electrical,Bank 2 O2 heater fault,Replace bank 2 upstream O2 sensor
+P0160,O2 Sensor Circuit No Activity Bank 2 Sensor 2,Hyundai V6 Models,Electrical,Bank 2 downstream O2 fault,Check bank 2 downstream O2 circuitP0170,Fuel Trim Malfunction Bank 1,Hyundai Accent/Atos,Mechanical,Vacuum leak or fuel delivery issue,Smoke test for leaks,check fuel pressure
+P0171,System Too Lean Bank 1,Hyundai Accent/Atos,Mechanical,Vacuum leak or weak fuel pump,Smoke test intake,check fuel pump pressure
+P0172,System Too Rich Bank 1,Hyundai Accent/Atos,Mechanical,Clogged air filter or faulty MAF,Replace air filter,clean or replace MAF
+P0173,Fuel Trim Malfunction Bank 2,Hyundai V6 Models,Mechanical,Bank 2 vacuum leak or fuel issue,Check bank 2 intake for leaks
+P0174,System Too Lean Bank 2,Hyundai V6 Models,Mechanical,Bank 2 vacuum leak,Smoke test bank 2 intake
+P0175,System Too Rich Bank 2,Hyundai V6 Models,Mechanical,Bank 2 MAF or injector issue,Check bank 2 MAF and injectors
+P0180,Fuel Temperature Sensor Circuit Malfunction,Hyundai Accent/Atos,Electrical,Fuel temp sensor wiring fault,Check fuel temp sensor connector
+P0181,Fuel Temperature Sensor Range/Performance,Hyundai Accent/Atos,Electrical,Fuel temp sensor out of range,Replace fuel temperature sensor
+P0182,Fuel Temperature Sensor Circuit Low,Hyundai Accent/Atos,Electrical,Fuel temp sensor wiring short,Check fuel temp sensor wiring
+P0183,Fuel Temperature Sensor Circuit High,Hyundai Accent/Atos,Electrical,Fuel temp sensor wiring open,Check fuel temp sensor wiring harness
+P0190,Fuel Rail Pressure Sensor Circuit Malfunction,Hyundai Accent/Atos,Electrical,FRPS sensor fault or wiring issue,Test FRPS voltage,check wiring
+P0191,Fuel Rail Pressure Sensor Range/Performance,Hyundai Accent/Atos,Electrical,FRPS out of range or fuel pressure issue,Check fuel pressure,test FRPS
+P0192,Fuel Rail Pressure Sensor Circuit Low,Hyundai Accent/Atos,Electrical,FRPS wiring short to ground,Check FRPS wiring for shorts
+P0193,Fuel Rail Pressure Sensor Circuit High,Hyundai Accent/Atos,Electrical,FRPS wiring open or short to battery,Check FRPS wiring harness
+P0200,Injector Circuit Malfunction,Hyundai Accent/Atos,Electrical,Injector harness or ECM driver fault,Check injector harness connectors
+P0201,Injector Circuit Malfunction Cylinder 1,Hyundai Accent/Atos,Electrical,Injector 1 wiring or connector fault,Check injector 1 connector,resistance
+P0202,Injector Circuit Malfunction Cylinder 2,Hyundai Accent/Atos,Electrical,Injector 2 wiring or connector fault,Check injector 2 connector,resistance
+P0203,Injector Circuit Malfunction Cylinder 3,Hyundai Accent/Atos,Electrical,Injector 3 wiring or connector fault,Check injector 3 connector,resistance
+P0204,Injector Circuit Malfunction Cylinder 4,Hyundai Accent/Atos,Electrical,Injector 4 wiring or connector fault,Check injector 4 connector,resistance
+P0210,Injector Circuit Malfunction Cylinder 10,Hyundai V10 Commercial,Electrical,Injector 10 wiring fault,Check injector 10 connector
+P0211,Injector Circuit Malfunction Cylinder 11,Hyundai V10 Commercial,Electrical,Injector 11 wiring fault,Check injector 11 connector
+P0212,Injector Circuit Malfunction Cylinder 12,Hyundai V12 Commercial,Electrical,Injector 12 wiring fault,Check injector 12 connector
+P0215,Engine Shutoff Solenoid Malfunction,Hyundai Commercial Diesel,Electrical,Shutoff solenoid wiring fault,Check engine shutoff solenoid
+P0216,Injector Timing Control Circuit Malfunction,Hyundai Diesel Models,Electrical,Injection timing solenoid fault,Check injection timing control
+P0219,Engine Overspeed Condition,Hyundai Commercial,Electrical/ Mechanical,RPM sensor fault or governor issue,Check RPM sensor,governor system
+P0220,Throttle Position Sensor B Circuit Malfunction,Hyundai Accent/Atos,Electrical,TPS B sensor or wiring fault,Check TPS B connector and wiring
+P0221,Throttle Position Sensor B Range/Performance,Hyundai Accent/Atos,Electrical,TPS B out of range,Replace throttle position sensor assembly
+P0222,Throttle Position Sensor B Circuit Low,Hyundai Accent/Atos,Electrical,TPS B wiring short to ground,Check TPS B wiring for shorts
+P0223,Throttle Position Sensor B Circuit High,Hyundai Accent/Atos,Electrical,TPS B wiring open or short to battery,Check TPS B wiring harness
+P0230,Fuel Pump Primary Circuit Malfunction,Hyundai Accent/Atos,Electrical,Fuel pump relay or wiring fault,Check fuel pump relay and fuse
+P0231,Fuel Pump Secondary Circuit Low,Hyundai Accent/Atos,Electrical,Fuel pump control circuit low,Check fuel pump control wiring
+P0232,Fuel Pump Secondary Circuit High,Hyundai Accent/Atos,Electrical,Fuel pump control circuit high,Check fuel pump control wiring
+P0233,Fuel Pump Secondary Circuit Intermittent,Hyundai Accent/Atos,Electrical,Fuel pump control loose connection,Secure fuel pump control connector
+P0234,Engine Overboost Condition,Hyundai Turbo Models,Mechanical,Turbo wastegate stuck closed,Check turbo wastegate operation
+P0235,Turbocharger Boost Sensor A Circuit,Hyundai Turbo Models,Electrical,Boost sensor wiring fault,Check turbo boost sensor wiring
+P0236,Turbocharger Boost Sensor A Range/Performance,Hyundai Turbo Models,Electrical,Boost sensor out of range,Replace turbo boost sensor
+P0237,Turbocharger Boost Sensor A Circuit Low,Hyundai Turbo Models,Electrical,Boost sensor wiring short to ground,Check boost sensor wiring for shorts
+P0238,Turbocharger Boost Sensor A Circuit High,Hyundai Turbo Models,Electrical,Boost sensor wiring open or short,Check boost sensor wiring harness
+P0239,Turbocharger Boost Sensor B Circuit,Hyundai Twin Turbo Models,Electrical,Boost sensor B wiring fault,Check boost sensor B wiring
+P0240,Turbocharger Boost Sensor B Range/Performance,Hyundai Twin Turbo Models,Electrical,Boost sensor B out of range,Replace boost sensor B
+P0241,Turbocharger Boost Sensor B Circuit Low,Hyundai Twin Turbo Models,Electrical,Boost sensor B wiring short,Check boost sensor B wiring
+P0242,Turbocharger Boost Sensor B Circuit High,Hyundai Twin Turbo Models,Electrical,Boost sensor B wiring open,Check boost sensor B wiring
+P0243,Turbocharger Wastegate Solenoid A Malfunction,Hyundai Turbo Models,Electrical,Wastegate solenoid wiring fault,Check wastegate solenoid wiring
+P0244,Turbocharger Wastegate Solenoid A Range/Performance,Hyundai Turbo Models,Mechanical,Wastegate solenoid stuck,Test wastegate solenoid operation
+P0245,Turbocharger Wastegate Solenoid A Low,Hyundai Turbo Models,Electrical,Wastegate solenoid circuit low,Check wastegate solenoid wiring
+P0246,Turbocharger Wastegate Solenoid A High,Hyundai Turbo Models,Electrical,Wastegate solenoid circuit high,Check wastegate solenoid wiring
+P0251,Injection Pump Fuel Metering Control A,Hyundai Diesel Models,Electrical,Injection pump control fault,Check injection pump control module
+P0252,Injection Pump Fuel Metering Control A Range,Hyundai Diesel Models,Electrical,Injection pump control out of range,Test injection pump control
+P0253,Injection Pump Fuel Metering Control A Low,Hyundai Diesel Models,Electrical,Injection pump control circuit low,Check injection pump wiring
+P0254,Injection Pump Fuel Metering Control A High,Hyundai Diesel Models,Electrical,Injection pump control circuit high,Check injection pump wiringP0255,Injection Pump Fuel Metering Control A Intermittent,Hyundai Diesel Models,Electrical,Injection pump control loose,Secure injection pump connector
+P0261,Cylinder 1 Injector Circuit Low,Hyundai Accent/Atos,Electrical,Injector 1 control circuit low,Check injector 1 control wiring
+P0262,Cylinder 1 Injector Circuit High,Hyundai Accent/Atos,Electrical,Injector 1 control circuit high,Check injector 1 control wiring
+P0263,Cylinder 1 Contribution/Balance Fault,Hyundai Accent/Atos,Mechanical,Injector 1 clogged or weak,Test injector 1 flow,replace if needed
+P0264,Cylinder 2 Injector Circuit Low,Hyundai Accent/Atos,Electrical,Injector 2 control circuit low,Check injector 2 control wiring
+P0265,Cylinder 2 Injector Circuit High,Hyundai Accent/Atos,Electrical,Injector 2 control circuit high,Check injector 2 control wiring
+P0266,Cylinder 2 Contribution/Balance Fault,Hyundai Accent/Atos,Mechanical,Injector 2 clogged or weak,Test injector 2 flow,replace if needed
+P0267,Cylinder 3 Injector Circuit Low,Hyundai Accent/Atos,Electrical,Injector 3 control circuit low,Check injector 3 control wiring
+P0268,Cylinder 3 Injector Circuit High,Hyundai Accent/Atos,Electrical,Injector 3 control circuit high,Check injector 3 control wiring
+P0269,Cylinder 3 Contribution/Balance Fault,Hyundai Accent/Atos,Mechanical,Injector 3 clogged or weak,Test injector 3 flow,replace if needed
+P0270,Cylinder 4 Injector Circuit Low,Hyundai Accent/Atos,Electrical,Injector 4 control circuit low,Check injector 4 control wiring
+P0271,Cylinder 4 Injector Circuit High,Hyundai Accent/Atos,Electrical,Injector 4 control circuit high,Check injector 4 control wiring
+P0272,Cylinder 4 Contribution/Balance Fault,Hyundai Accent/Atos,Mechanical,Injector 4 clogged or weak,Test injector 4 flow,replace if needed
+P0273,Cylinder 5 Injector Circuit Low,Hyundai V6 Models,Electrical,Injector 5 control circuit low,Check injector 5 control wiring
+P0274,Cylinder 5 Injector Circuit High,Hyundai V6 Models,Electrical,Injector 5 control circuit high,Check injector 5 control wiring
+P0275,Cylinder 5 Contribution/Balance Fault,Hyundai V6 Models,Mechanical,Injector 5 clogged or weak,Test injector 5 flow
+P0276,Cylinder 6 Injector Circuit Low,Hyundai V6 Models,Electrical,Injector 6 control circuit low,Check injector 6 control wiring
+P0277,Cylinder 6 Injector Circuit High,Hyundai V6 Models,Electrical,Injector 6 control circuit high,Check injector 6 control wiring
+P0278,Cylinder 6 Contribution/Balance Fault,Hyundai V6 Models,Mechanical,Injector 6 clogged or weak,Test injector 6 flow
+P0298,Engine Oil Over Temperature,Hyundai All Models,Mechanical,Low oil level or cooling issue,Check oil level,cooling system
+P0299,Turbo/Super Charger Underboost,Hyundai Turbo Models,Mechanical,Turbo leak or wastegate stuck open,Check turbo hoses and wastegate
+P0300,Random/Multiple Cylinder Misfire Detected,Hyundai Accent/Atos,Mechanical,Spark plugs,coils,vacuum leak,Replace plugs,check coils,smoke test
+P0301,Cylinder 1 Misfire Detected,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 1,Swap coil to test,replace plug
+P0302,Cylinder 2 Misfire Detected,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 2,Swap coil to test,replace plug
+P0303,Cylinder 3 Misfire Detected,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 3,Swap coil to test,replace plug
+P0304,Cylinder 4 Misfire Detected,Hyundai Accent/Atos,Mechanical,Faulty spark plug or coil cylinder 4,Swap coil to test,replace plug
+P0305,Cylinder 5 Misfire Detected,Hyundai V6 Models,Mechanical,Faulty spark plug or coil cylinder 5,Swap coil to test cylinder 5
+P0306,Cylinder 6 Misfire Detected,Hyundai V6 Models,Mechanical,Faulty spark plug or coil cylinder 6,Swap coil to test cylinder 6
+P0320,Ignition Engine Speed Input Circuit,Hyundai Accent/Atos,Electrical,Crank/cam sensor wiring fault,Check crank/cam sensor wiring
+P0325,Knock Sensor Circuit Malfunction,Hyundai Accent/Atos,Electrical,Knock sensor faulty or wiring,Replace knock sensor,check wiring
+P0326,Knock Sensor Circuit Range/Performance,Hyundai Accent/Atos,Electrical,Knock sensor out of range,Replace knock sensor
+P0327,Knock Sensor Circuit Low Input,Hyundai Accent/Atos,Electrical,Knock sensor wiring short to ground,Check knock sensor wiring
+P0328,Knock Sensor Circuit High Input,Hyundai Accent/Atos,Electrical,Knock sensor wiring open or short,Check knock sensor wiring
+P0335,Crankshaft Position Sensor A Circuit,Hyundai Accent/Atos,Electrical,CKP sensor faulty or wiring,Replace CKP sensor,check wiring
+P0336,Crankshaft Position Sensor A Range/Performance,Hyundai Accent/Atos,Electrical,CKP sensor out of range or reluctor damage,Replace CKP sensor,inspect reluctor
+P0337,Crankshaft Position Sensor A Circuit Low,Hyundai Accent/Atos,Electrical,CKP wiring short to ground,Check CKP wiring for shorts
+P0338,Crankshaft Position Sensor A Circuit High,Hyundai Accent/Atos,Electrical,CKP wiring open or short to battery,Check CKP wiring harness
+P0340,Camshaft Position Sensor Circuit,Hyundai Accent/Atos,Electrical,CMP sensor faulty or wiring,Replace CMP sensor,check wiring
+P0341,Camshaft Position Sensor Range/Performance,Hyundai Accent/Atos,Electrical,CMP sensor out of range or timing issue,Replace CMP sensor,check timing
+P0342,Camshaft Position Sensor Circuit Low,Hyundai Accent/Atos,Electrical,CMP wiring short to ground,Check CMP wiring for shorts
+P0343,Camshaft Position Sensor Circuit High,Hyundai Accent/Atos,Electrical,CMP wiring open or short to battery,Check CMP wiring harness
+P0350,Ignition Coil Primary/Secondary Circuit,Hyundai Accent/Atos,Electrical,Ignition coil circuit fault,Test ignition coil primary/secondary
+P0351,Ignition Coil A Primary/Secondary Circuit,Hyundai Accent/Atos,Electrical,Coil A circuit fault,Replace ignition coil A
+P0352,Ignition Coil B Primary/Secondary Circuit,Hyundai Accent/Atos,Electrical,Coil B circuit fault,Replace ignition coil B
+P0353,Ignition Coil C Primary/Secondary Circuit,Hyundai V6 Models,Electrical,Coil C circuit fault,Replace ignition coil C
+P0354,Ignition Coil D Primary/Secondary Circuit,Hyundai V6 Models,Electrical,Coil D circuit fault,Replace ignition coil D
+P0355,Ignition Coil E Primary/Secondary Circuit,Hyundai V6 Models,Electrical,Coil E circuit fault,Replace ignition coil E
+P0356,Ignition Coil F Primary/Secondary Circuit,Hyundai V6 Models,Electrical,Coil F circuit fault,Replace ignition coil F
+P0400,EGR Flow Malfunction,Dacia Logan/Sandero,Mechanical,EGR valve stuck or passages clogged,Clean EGR valve and passages
+P0401,EGR Flow Insufficient Detected,Dacia Logan/Sandero,Mechanical,EGR valve stuck closed or clogged,Clean EGR valve and intake passagesP0402,EGR Flow Excessive Detected,Dacia Logan/Sandero,Mechanical,EGR valve stuck open,Replace or clean EGR valve
+P0403,EGR Control Circuit Malfunction,Dacia Logan/Sandero,Electrical,EGR solenoid wiring fault,Check EGR solenoid wiring
+P0404,EGR Control Circuit Range/Performance,Dacia Logan/Sandero,Electrical,EGR solenoid out of range,Test EGR solenoid operation
+P0405,EGR Sensor A Circuit Low,Dacia Logan/Sandero,Electrical,EGR position sensor wiring short,Check EGR position sensor wiring
+P0406,EGR Sensor A Circuit High,Dacia Logan/Sandero,Electrical,EGR position sensor wiring open,Check EGR position sensor wiring
+P0410,Secondary Air Injection System Malfunction,Dacia Logan/Sandero,Electrical,AIR pump relay or wiring fault,Check AIR pump relay and wiring
+P0411,Secondary Air Injection Incorrect Flow,Dacia Logan/Sandero,Mechanical,AIR pump weak or check valve stuck,Test AIR pump operation,check valve
+P0420,Catalyst System Efficiency Below Threshold,Dacia Logan/Sandero,Mechanical,Worn catalytic converter,Replace catalytic converter
+P0430,Catalyst System Efficiency Below Threshold Bank 2,Dacia V6 Models,Mechanical,Bank 2 catalytic converter worn,Replace bank 2 catalytic converter
+P0440,Evaporative Emission Control System Malfunction,Dacia Logan/Sandero,Mechanical,EVAP leak or purge valve fault,Smoke test EVAP system
+P0441,EVAP System Incorrect Purge Flow,Dacia Logan/Sandero,Mechanical,Purge valve stuck or hose disconnected,Check purge valve and EVAP hoses
+P0442,EVAP System Small Leak Detected,Dacia Logan/Sandero,Mechanical,Loose fuel cap or small hose leak,Tighten fuel cap,smoke test EVAP
+P0443,EVAP Purge Control Valve Circuit,Dacia Logan/Sandero,Electrical,Purge valve wiring fault,Check purge valve wiring
+P0444,EVAP Purge Control Valve Circuit Open,Dacia Logan/Sandero,Electrical,Purge valve wiring open,Check purge valve wiring harness
+P0445,EVAP Purge Control Valve Circuit Shorted,Dacia Logan/Sandero,Electrical,Purge valve wiring shorted,Check purge valve wiring for shorts
+P0446,EVAP Vent Control Circuit Malfunction,Dacia Logan/Sandero,Electrical,Vent valve wiring fault,Check EVAP vent valve wiring
+P0447,EVAP Vent Control Circuit Open,Dacia Logan/Sandero,Electrical,Vent valve wiring open,Check vent valve wiring harness
+P0448,EVAP Vent Control Circuit Shorted,Dacia Logan/Sandero,Electrical,Vent valve wiring shorted,Check vent valve wiring for shorts
+P0449,EVAP Vent Valve/Solenoid Circuit,Dacia Logan/Sandero,Electrical,Vent solenoid wiring fault,Check EVAP vent solenoid wiring
+P0450,EVAP Pressure Sensor Malfunction,Dacia Logan/Sandero,Electrical,EVAP pressure sensor fault,Replace EVAP pressure sensor
+P0451,EVAP Pressure Sensor Range/Performance,Dacia Logan/Sandero,Electrical,EVAP pressure sensor out of range,Replace EVAP pressure sensor
+P0452,EVAP Pressure Sensor Circuit Low,Dacia Logan/Sandero,Electrical,EVAP pressure sensor wiring short,Check EVAP pressure sensor wiring
+P0453,EVAP Pressure Sensor Circuit High,Dacia Logan/Sandero,Electrical,EVAP pressure sensor wiring open,Check EVAP pressure sensor wiring
+P0454,EVAP Pressure Sensor Intermittent,Dacia Logan/Sandero,Electrical,EVAP pressure sensor loose connection,Secure EVAP pressure sensor connector
+P0455,EVAP System Large Leak Detected,Dacia Logan/Sandero,Mechanical,Missing fuel cap or large EVAP leak,Replace fuel cap,smoke test EVAP
+P0456,EVAP System Very Small Leak Detected,Dacia Logan/Sandero,Mechanical,Tiny EVAP system leak,Smoke test EVAP system carefully
+P0457,EVAP Leak Detected Fuel Cap Loose,Dacia Logan/Sandero,Mechanical,Fuel cap not tightened properly,Tighten fuel cap until clicks
+P0458,EVAP Purge Control Valve Circuit Low,Dacia Logan/Sandero,Electrical,Purge valve control circuit low,Check purge valve control wiring
+P0459,EVAP Purge Control Valve Circuit High,Dacia Logan/Sandero,Electrical,Purge valve control circuit high,Check purge valve control wiring
+P0460,Fuel Level Sensor A Circuit Malfunction,Dacia Logan/Sandero,Electrical,Fuel level sensor wiring fault,Check fuel level sensor wiring
+P0461,Fuel Level Sensor A Range/Performance,Dacia Logan/Sandero,Electrical,Fuel level sensor out of range,Replace fuel level sender
+P0462,Fuel Level Sensor A Circuit Low,Dacia Logan/Sandero,Electrical,Fuel level sensor wiring short,Check fuel level sensor wiring
+P0463,Fuel Level Sensor A Circuit High,Dacia Logan/Sandero,Electrical,Fuel level sensor wiring open,Check fuel level sensor wiring
+P0464,Fuel Level Sensor A Intermittent,Dacia Logan/Sandero,Electrical,Fuel level sensor loose connection,Secure fuel level sensor connector
+P0470,Exhaust Pressure Sensor Malfunction,Dacia Diesel Models,Electrical,Exhaust pressure sensor fault,Replace exhaust pressure sensor
+P0471,Exhaust Pressure Sensor Range/Performance,Dacia Diesel Models,Electrical,Exhaust pressure sensor out of range,Replace exhaust pressure sensor
+P0472,Exhaust Pressure Sensor Circuit Low,Dacia Diesel Models,Electrical,Exhaust pressure sensor wiring short,Check exhaust pressure sensor wiring
+P0473,Exhaust Pressure Sensor Circuit High,Dacia Diesel Models,Electrical,Exhaust pressure sensor wiring open,Check exhaust pressure sensor wiring
+P0474,Exhaust Pressure Sensor Intermittent,Dacia Diesel Models,Electrical,Exhaust pressure sensor loose,Secure exhaust pressure sensor connector
+P0480,Engine Cooling Fan 1 Control Circuit,Dacia Logan/Sandero,Electrical,Fan relay or wiring fault,Test fan relay and wiring
+P0481,Engine Cooling Fan 2 Control Circuit,Dacia Logan/Sandero,Electrical,Fan 2 relay or wiring fault,Test fan 2 relay and wiring
+P0482,Engine Cooling Fan 3 Control Circuit,Dacia Commercial Models,Electrical,Fan 3 relay or wiring fault,Test fan 3 relay and wiring
+P0483,Engine Cooling Fan Rationality Check,Dacia Logan/Sandero,Electrical,Fan speed sensor or logic fault,Check fan speed sensor and BCM
+P0484,Engine Cooling Fan Circuit Over Current,Dacia Logan/Sandero,Electrical,Fan motor drawing too much current,Replace cooling fan motor
+P0485,Engine Cooling Fan Power/Ground Circuit,Dacia Logan/Sandero,Electrical,Fan power or ground wiring fault,Check fan power and ground wiring
+P0486,EGR Sensor B Circuit Malfunction,Dacia Diesel Models,Electrical,EGR sensor B wiring fault,Check EGR sensor B wiring
+P0487,EGR Throttle Position Control Circuit,Dacia Diesel Models,Electrical,EGR throttle control wiring fault,Check EGR throttle control wiring
+P0488,EGR Throttle Position Control Range/Performance,Dacia Diesel Models,Electrical,EGR throttle control out of range,Test EGR throttle control operation
+P0489,EGR Control Circuit Low,Dacia Diesel Models,Electrical,EGR control circuit short to ground,Check EGR control wiring for shorts
+P0490,EGR Control Circuit High,Dacia Diesel Models,Electrical,EGR control circuit open or short,Check EGR control wiring harnessP0491,Secondary Air Injection Insufficient Flow Bank 1,Dacia Diesel Models,Mechanical,AIR pump weak or valve stuck Bank 1,Test AIR pump,check Bank 1 valve
+P0492,Secondary Air Injection Insufficient Flow Bank 2,Dacia V6 Diesel Models,Mechanical,AIR pump weak or valve stuck Bank 2,Test AIR pump,check Bank 2 valve
+P0493,Engine Cooling Fan Overspeed,Dacia Logan/Sandero,Electrical,Fan control module fault,Check fan control module
+P0494,Engine Cooling Fan Speed Low,Dacia Logan/Sandero,Electrical,Fan motor weak or resistor fault,Replace fan motor or resistor
+P0495,Engine Cooling Fan Speed High,Dacia Logan/Sandero,Electrical,Fan control module fault,Check fan control module
+P0496,EVAP System High Purge Flow,Dacia Logan/Sandero,Mechanical,Purge valve stuck open,Replace EVAP purge valve
+P0497,EVAP System Low Purge Flow,Dacia Logan/Sandero,Mechanical,Purge valve stuck closed or clogged,Clean or replace EVAP purge valve
+P0498,EVAP Vent Valve Control Circuit Low,Dacia Logan/Sandero,Electrical,Vent valve control circuit low,Check vent valve control wiring
+P0499,EVAP Vent Valve Control Circuit High,Dacia Logan/Sandero,Electrical,Vent valve control circuit high,Check vent valve control wiring
+P0500,Vehicle Speed Sensor Malfunction,Toyota All Models,Electrical,VSS sensor faulty or wiring issue,Replace VSS sensor,check wiring
+P0501,Vehicle Speed Sensor Range/Performance,Toyota All Models,Electrical,VSS sensor out of range,Replace vehicle speed sensor
+P0502,Vehicle Speed Sensor Circuit Low Input,Toyota All Models,Electrical,VSS wiring short to ground,Check VSS wiring for shorts
+P0503,Vehicle Speed Sensor Intermittent/Erratic,Toyota All Models,Electrical,VSS wiring loose or sensor faulty,Secure VSS connector,replace sensor
+P0505,Idle Air Control System Malfunction,Toyota All Models,Mechanical,IAC valve dirty or faulty,Clean IAC valve,replace if needed
+P0506,Idle Control System RPM Lower Than Expected,Toyota All Models,Mechanical,IAC valve stuck or vacuum leak,Clean IAC valve,check for vacuum leaks
+P0507,Idle Control System RPM Higher Than Expected,Toyota All Models,Mechanical,IAC valve stuck open or throttle dirty,Clean throttle body and IAC valve
+P0508,Idle Air Control System Circuit Low,Toyota All Models,Electrical,IAC control wiring short to ground,Check IAC control wiring
+P0509,Idle Air Control System Circuit High,Toyota All Models,Electrical,IAC control wiring open or short,Check IAC control wiring harness
+P0510,Closed Throttle Position Switch Malfunction,Toyota All Models,Electrical,Throttle switch wiring fault,Check throttle position switch wiring
+P0511,Idle Air Control Circuit Malfunction,Toyota All Models,Electrical,IAC circuit wiring or valve fault,Check IAC wiring,replace valve if needed
+P0512,Starter Request Circuit,Toyota All Models,Electrical,Starter relay or wiring fault,Check starter relay and wiring
+P0513,Incorrect Immobilizer Key,Toyota All Models,Electrical,Immobilizer key not recognized,Use programmed key,reprogram if needed
+P0514,Battery Temperature Sensor Range/Performance,Toyota Hybrid Models,Electrical,Battery temp sensor out of range,Replace battery temperature sensor
+P0515,Battery Temperature Sensor Circuit,Toyota Hybrid Models,Electrical,Battery temp sensor wiring fault,Check battery temp sensor wiring
+P0516,Battery Temperature Sensor Circuit Low,Toyota Hybrid Models,Electrical,Battery temp sensor wiring short,Check battery temp sensor wiring
+P0517,Battery Temperature Sensor Circuit High,Toyota Hybrid Models,Electrical,Battery temp sensor wiring open,Check battery temp sensor wiring
+P0518,Idle Air Control Circuit Intermittent,Toyota All Models,Electrical,IAC wiring loose connection,Secure IAC connector
+P0519,Idle Air Control System Performance,Toyota All Models,Mechanical,IAC valve worn or carbon buildup,Clean or replace IAC valve
+P0520,Engine Oil Pressure Sensor Circuit,Toyota All Models,Electrical,Oil pressure sensor wiring fault,Check oil pressure sensor wiring
+P0521,Engine Oil Pressure Sensor Range/Performance,Toyota All Models,Electrical,Oil pressure sensor out of range,Replace oil pressure sensor
+P0522,Engine Oil Pressure Sensor Circuit Low,Toyota All Models,Electrical,Oil pressure sensor wiring short,Check oil pressure sensor wiring
+P0523,Engine Oil Pressure Sensor Circuit High,Toyota All Models,Electrical,Oil pressure sensor wiring open,Check oil pressure sensor wiring
+P0524,Engine Oil Pressure Too Low,Toyota All Models,Mechanical,Low oil level or worn pump,Check oil level,test oil pressure
+P0525,Cruise Control Servo Control Range/Performance,Toyota All Models,Electrical,Cruise servo wiring or motor fault,Check cruise control servo
+P0526,Fan Speed Sensor Circuit,Toyota All Models,Electrical,Fan speed sensor wiring fault,Check fan speed sensor wiring
+P0527,Fan Speed Sensor Circuit Range/Performance,Toyota All Models,Electrical,Fan speed sensor out of range,Replace fan speed sensor
+P0528,Fan Speed Sensor Circuit No Signal,Toyota All Models,Electrical,Fan speed sensor wiring open,Check fan speed sensor wiring
+P0529,Fan Speed Sensor Circuit Intermittent,Toyota All Models,Electrical,Fan speed sensor loose connection,Secure fan speed sensor connector
+P0530,A/C Refrigerant Pressure Sensor Circuit,Toyota All Models,Electrical,A/C pressure sensor wiring fault,Check A/C pressure sensor wiring
+P0531,A/C Refrigerant Pressure Sensor Range/Performance,Toyota All Models,Electrical,A/C pressure sensor out of range,Replace A/C pressure sensor
+P0532,A/C Refrigerant Pressure Sensor Circuit Low,Toyota All Models,Electrical,A/C pressure sensor wiring short,Check A/C pressure sensor wiring
+P0533,A/C Refrigerant Pressure Sensor Circuit High,Toyota All Models,Electrical,A/C pressure sensor wiring open,Check A/C pressure sensor wiring
+P0534,A/C Refrigerant Charge Loss,Toyota All Models,Mechanical,Refrigerant leak in A/C system,Pressure test A/C system for leaks
+P0535,A/C Evaporator Temperature Sensor Circuit,Toyota All Models,Electrical,Evap temp sensor wiring fault,Check evaporator temp sensor wiring
+P0536,A/C Evaporator Temperature Sensor Range/Performance,Toyota All Models,Electrical,Evap temp sensor out of range,Replace evaporator temp sensor
+P0537,A/C Evaporator Temperature Sensor Circuit Low,Toyota All Models,Electrical,Evap temp sensor wiring short,Check evaporator temp sensor wiring
+P0538,A/C Evaporator Temperature Sensor Circuit High,Toyota All Models,Electrical,Evap temp sensor wiring open,Check evaporator temp sensor wiring
+P0539,A/C Evaporator Temperature Sensor Intermittent,Toyota All Models,Electrical,Evap temp sensor loose connection,Secure evaporator temp sensor connector
+P0540,Intake Air Heater A Circuit Malfunction,Toyota Diesel Models,Electrical,Intake heater relay or wiring fault,Check intake heater relay and wiring
+P0541,Intake Air Heater A Circuit Low,Toyota Diesel Models,Electrical,Intake heater wiring short to ground,Check intake heater wiringP0542,Intake Air Heater A Circuit High,Toyota Diesel Models,Electrical,Intake heater wiring open or short,Check intake heater wiring harness
+P0543,Intake Air Heater A Circuit Open,Toyota Diesel Models,Electrical,Intake heater wiring open circuit,Check intake heater wiring continuity
+P0544,Exhaust Gas Temperature Sensor Circuit B1S1,Toyota Diesel Models,Electrical,EGT sensor wiring fault Bank 1,Check EGT sensor Bank 1 wiring
+P0545,Exhaust Gas Temperature Sensor Circuit Low B1S1,Toyota Diesel Models,Electrical,EGT sensor wiring short Bank 1,Check EGT sensor Bank 1 wiring
+P0546,Exhaust Gas Temperature Sensor Circuit High B1S1,Toyota Diesel Models,Electrical,EGT sensor wiring open Bank 1,Check EGT sensor Bank 1 wiring
+P0547,Exhaust Gas Temperature Sensor Circuit B2S1,Toyota V6 Diesel Models,Electrical,EGT sensor wiring fault Bank 2,Check EGT sensor Bank 2 wiring
+P0548,Exhaust Gas Temperature Sensor Circuit Low B2S1,Toyota V6 Diesel Models,Electrical,EGT sensor wiring short Bank 2,Check EGT sensor Bank 2 wiring
+P0549,Exhaust Gas Temperature Sensor Circuit High B2S1,Toyota V6 Diesel Models,Electrical,EGT sensor wiring open Bank 2,Check EGT sensor Bank 2 wiring
+P0550,Power Steering Pressure Sensor Circuit,Toyota All Models,Electrical,PS pressure sensor wiring fault,Check power steering pressure sensor wiring
+P0551,Power Steering Pressure Sensor Range/Performance,Toyota All Models,Electrical,PS pressure sensor out of range,Replace power steering pressure sensor
+P0552,Power Steering Pressure Sensor Circuit Low,Toyota All Models,Electrical,PS pressure sensor wiring short,Check PS pressure sensor wiring
+P0553,Power Steering Pressure Sensor Circuit High,Toyota All Models,Electrical,PS pressure sensor wiring open,Check PS pressure sensor wiring
+P0554,Power Steering Pressure Sensor Intermittent,Toyota All Models,Electrical,PS pressure sensor loose connection,Secure PS pressure sensor connector
+P0560,System Voltage Malfunction,Toyota All Models,Electrical,Battery or alternator voltage issue,Test battery voltage and alternator output
+P0561,System Voltage Unstable,Toyota All Models,Electrical,Loose battery terminal or bad ground,Check battery terminals and ground connections
+P0562,System Voltage Low,Toyota All Models,Electrical,Weak battery or failing alternator,Test battery and alternator,replace if needed
+P0563,System Voltage High,Toyota All Models,Electrical,Faulty voltage regulator in alternator,Replace alternator or voltage regulator
+P0564,Cruise Control Multi Function Input A Circuit,Toyota All Models,Electrical,Cruise switch wiring fault,Check cruise control switch wiring
+P0565,Cruise Control On Signal Malfunction,Toyota All Models,Electrical,Cruise on switch wiring fault,Check cruise on switch wiring
+P0566,Cruise Control Off Signal Malfunction,Toyota All Models,Electrical,Cruise off switch wiring fault,Check cruise off switch wiring
+P0567,Cruise Control Resume Signal Malfunction,Toyota All Models,Electrical,Cruise resume switch wiring fault,Check cruise resume switch wiring
+P0568,Cruise Control Set Signal Malfunction,Toyota All Models,Electrical,Cruise set switch wiring fault,Check cruise set switch wiring
+P0569,Cruise Control Coast Signal Malfunction,Toyota All Models,Electrical,Cruise coast switch wiring fault,Check cruise coast switch wiring
+P0570,Cruise Control Accelerate Signal Malfunction,Toyota All Models,Electrical,Cruise accelerate switch wiring fault,Check cruise accelerate switch wiring
+P0571,Brake Switch A Circuit Malfunction,Toyota All Models,Electrical,Brake switch wiring fault,Check brake switch wiring
+P0572,Brake Switch A Circuit Low,Toyota All Models,Electrical,Brake switch wiring short to ground,Check brake switch wiring for shorts
+P0573,Brake Switch A Circuit High,Toyota All Models,Electrical,Brake switch wiring open or short,Check brake switch wiring harness
+P0574,Cruise Control System Vehicle Speed Too High,Toyota All Models,Electrical,Cruise control logic fault,Check cruise control module
+P0575,Cruise Control Input Circuit Malfunction,Toyota All Models,Electrical,Cruise input wiring fault,Check cruise control input wiring
+P0576,Cruise Control Input Circuit Low,Toyota All Models,Electrical,Cruise input wiring short to ground,Check cruise input wiring for shorts
+P0577,Cruise Control Input Circuit High,Toyota All Models,Electrical,Cruise input wiring open or short,Check cruise input wiring harness
+P0578,Cruise Control Multi Function Input A Stuck,Toyota All Models,Electrical,Cruise switch stuck or shorted,Replace cruise control switch
+P0579,Cruise Control Multi Function Input A Range,Toyota All Models,Electrical,Cruise switch out of range,Replace cruise control switch
+P0580,Cruise Control Multi Function Input A Low,Toyota All Models,Electrical,Cruise switch wiring short,Check cruise switch wiring
+P0581,Cruise Control Multi Function Input A High,Toyota All Models,Electrical,Cruise switch wiring open,Check cruise switch wiring
+P0582,Cruise Control Vacuum Control Circuit/Open,Toyota Vacuum Cruise Models,Electrical,Cruise vacuum solenoid wiring fault,Check cruise vacuum solenoid wiring
+P0583,Cruise Control Vacuum Control Circuit Low,Toyota Vacuum Cruise Models,Electrical,Cruise vacuum solenoid circuit low,Check cruise vacuum solenoid wiring
+P0584,Cruise Control Vacuum Control Circuit High,Toyota Vacuum Cruise Models,Electrical,Cruise vacuum solenoid circuit high,Check cruise vacuum solenoid wiring
+P0585,Cruise Control Multi Function Input A/B Correlation,Toyota All Models,Electrical,Cruise switch correlation fault,Replace cruise control switch assembly
+P0586,Cruise Control Vent Control Circuit/Open,Toyota Vacuum Cruise Models,Electrical,Cruise vent solenoid wiring fault,Check cruise vent solenoid wiring
+P0587,Cruise Control Vent Control Circuit Low,Toyota Vacuum Cruise Models,Electrical,Cruise vent solenoid circuit low,Check cruise vent solenoid wiring
+P0588,Cruise Control Vent Control Circuit High,Toyota Vacuum Cruise Models,Electrical,Cruise vent solenoid circuit high,Check cruise vent solenoid wiring
+P0589,Cruise Control Multi Function Input B Circuit,Toyota All Models,Electrical,Cruise input B wiring fault,Check cruise input B wiring
+P0590,Cruise Control Multi Function Input B Stuck,Toyota All Models,Electrical,Cruise input B switch stuck,Replace cruise control switch
+P0591,Cruise Control Multi Function Input B Range,Toyota All Models,Electrical,Cruise input B out of range,Replace cruise control switch
+P0592,Cruise Control Multi Function Input B Low,Toyota All Models,Electrical,Cruise input B wiring short,Check cruise input B wiring
+P0593,Cruise Control Multi Function Input B High,Toyota All Models,Electrical,Cruise input B wiring open,Check cruise input B wiring
+P0594,Cruise Control Servo Control Circuit/Open,Toyota All Models,Electrical,Cruise servo wiring fault,Check cruise servo control wiring
+P0595,Cruise Control Servo Control Circuit Low,Toyota All Models,Electrical,Cruise servo circuit low,Check cruise servo wiring
+P0596,Cruise Control Servo Control Circuit High,Toyota All Models,Electrical,Cruise servo circuit high,Check cruise servo wiringP0597,Thermostat Heater Control Circuit/Open,Toyota All Models,Electrical,Thermostat heater wiring fault,Check thermostat heater wiring
+P0598,Thermostat Heater Control Circuit Low,Toyota All Models,Electrical,Thermostat heater circuit low,Check thermostat heater wiring
+P0599,Thermostat Heater Control Circuit High,Toyota All Models,Electrical,Thermostat heater circuit high,Check thermostat heater wiring

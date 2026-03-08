@@ -1,0 +1,22 @@
+{
+    "app_title": "تشخيص الأعطال",
+    "connect": "اتصال",
+    "disconnect": "قطع الاتصال",
+    "read_dtc": "قراءة الرموز",
+    "clear_dtc": "مسح الرموز",
+    "rpm": "سرعة المحرك",
+    "load": "الحمل",
+    "coolant_temp": "حرارة المحرك",
+    "fuel_status": "حالة الوقود",
+    "speed": "السرعة",
+    "short_fuel_trim": "تصحيح قصير الأجل",
+    "long_fuel_trim": "تصحيح طويل الأجل",
+    "intake_pressure": "ضغط السحب",
+    "timing_advance": "توقيت متقدم",
+    "intake_temp": "حرارة السحب",
+    "maf": "تدفق الهواء",
+    "throttle": "فتحة الخانق",
+    "o2_voltage": "جهد حساس O2",
+    "fuel_pressure": "ضغط الوقود",
+    "no_dtc": "لا توجد رموز"
+}

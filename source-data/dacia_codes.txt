@@ -1,0 +1,71 @@
+P0087,Fuel pressure too high,DACIA
+P0101,Air flow meter (MAF) - air input circuit,DACIA
+P0171,Charging system - air flow too low,DACIA
+P0299,Turbocharger/compressor - insufficient boost pressure,DACIA
+P0420,Catalytic converter - efficiency below threshold,DACIA
+P0500,Vehicle speed sensor - malfunction,DACIA
+DF236,Engine speed sensor, signal out of range,DACIA
+DF237,Coolant temperature sensor invalid signal,DACIA
+DF242,Steering configuration / Turbocharger actuator circuit,DACIA
+DF261,Turbocharger actuator control,DACIA
+DF263,Longitudinal acceleration sensor,DACIA
+DF272,EGR valve control circuit,DACIA
+DF279,Seat belt warning circuit,DACIA
+DF282,Longitudinal acceleration sensor,DACIA
+DF293,Water in diesel fuel sensor,DACIA
+DF304,EGR by-pass circuit,DACIA
+DF310,Particle filter upstream temp. sensor,DACIA
+DF319,Camshaft sensor circuit,DACIA
+DF328,Throttle potentiometer circuit,DACIA
+DF330,Pinking sensor circuit,DACIA
+DF333,Accelerator pedal position multiplex,DACIA
+DF342,Malfunction indicator light circuit,DACIA
+DF352,Immobiliser circuit,DACIA
+DF353,Inlet manifold pressure sensor circuit,DACIA
+DF358,Injector control computer,DACIA
+DF361,Ignition coil circuit 1-4,DACIA
+DF362,Ignition coil 2-3 circuit,DACIA
+DF363,Camshaft dephaser,DACIA
+DF379,Cylinder injector 1 control,DACIA
+DF380,Cylinder 2 injector control,DACIA
+DF381,Cylinder 3 injector control,DACIA
+DF382,Cylinder injector 4 command,DACIA
+DF390,Oxygen sensor operating fault,DACIA
+DF394,Catalytic converter operating fault,DACIA
+DF409,Fuel Level Sensor Circuit,DACIA
+DF411,Brake pedal sensor circuit,DACIA
+DF425,Seat belt buzzer,DACIA
+DF427,Turbocharger actuator control,DACIA
+DF433,Air conditioning compressor control,DACIA
+DF436,Detection of engine misfiring,DACIA
+DF487,Throttle stop programming,DACIA
+DF489,Alternator charge signal / Air conditioning compressor control,DACIA
+DF504,Automatic transmission,DACIA
+DF514,Fuel pump relay circuit,DACIA
+DF532,Alternator charge signal / Brake light switch signal,DACIA
+DF556,Pedal/throttle position consistency,DACIA
+DF569,Boost pressure low / Turbocharging circuit,DACIA
+DF584,Coolant temperature warning light circuit,DACIA
+DF619,EGR valve jammed open,DACIA
+DF631,Brake light switch signal / Injector programming cycle not done,DACIA
+DF633,LPG fuel circuit operating fault,DACIA
+DF635,LPG cylinder 1 misfire,DACIA
+DF636,LPG cylinder 2 misfire,DACIA
+DF637,LPG cylinder 3 misfire,DACIA
+DF638,LPG cylinder 4 misfire,DACIA
+DF639,Combustion misfire in LPG mode,DACIA
+DF647,EGR valve position regulation,DACIA
+DF653,Cylinder no. 1 fuel injection calibration,DACIA
+DF654,Cylinder no. 2 fuel injection calibration,DACIA
+DF655,Cylinder no. 3 fuel injection calibration,DACIA
+DF656,Cylinder no. 4 fuel injection calibration,DACIA
+DF721,Engine overheating,DACIA
+DF859,Injector data not programmed / Presence of water in the diesel fuel,DACIA
+DF884,Additional fuel circuit pump relay,DACIA
+DF885,Rail pressure,DACIA
+DF886,Presence of water in the diesel fuel,DACIA
+DF887,Brake - accelerator pedal position,DACIA
+DF987,Cruise control/speed limiter buttons,DACIA
+DF992,Additional heater 1 relay circuit,DACIA
+DF993,Additional heater 2 relay circuit,DACIA
+DF994,Additional heater 3 relay circuit,DACIA
